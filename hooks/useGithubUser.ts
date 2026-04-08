@@ -1,3 +1,4 @@
+"use client"
 import { getRepos, getUser } from "@/services/github";
 import { Repo, User } from "@/types/github";
 import { useState } from "react";

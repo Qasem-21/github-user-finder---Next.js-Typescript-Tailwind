@@ -8,6 +8,7 @@ export default function UserCard({ user }: { user: User }) {
         padding: 20,
         borderRadius: 10,
         marginBottom: 20,
+        marginTop:10,
       }}
     >
       <img
