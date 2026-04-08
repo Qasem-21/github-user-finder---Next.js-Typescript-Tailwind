@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔍 GitHub User Search
 
-## Getting Started
+A simple and modern web app built with **Next.js + TypeScript + React** that allows users to search for GitHub profiles and view their information.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+*  Search GitHub users by username
+*  Display user profile (avatar, bio, followers, repos count)
+*  Show user repositories
+*  Loading state handling
+*  Error handling (user not found, API errors)
+
+---
+
+## 🛠 Tech Stack
+
+* **Next.js**
+* **React**
+* **TypeScript**
+* **CSS (basic styling)**
+
+---
+
+## 📡 API Used
+
+GitHub REST API:
+
+```
+https://api.github.com/users/{username}
+https://api.github.com/users/{username}/repos
+```
+
+---
+
+## 📁 Project Structure
+
+```
+github-user-search/
+│
+├── app/
+├── components/
+├── services/
+├── hooks/
+├── types/
+├── utils/
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Qasem-21/github-user-search.git
+cd github-user-search
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Open in browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http://localhost:3000
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Qasem Mohammadi
+GitHub: https://github.com/Qasem-21
