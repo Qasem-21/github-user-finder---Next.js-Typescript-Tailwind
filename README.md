@@ -11,6 +11,7 @@ A simple and modern web app built with **Next.js + TypeScript + React** that all
 *  Show user repositories
 *  Loading state handling
 *  Error handling (user not found, API errors)
+*  Full responsive 
 
 ---
 
@@ -19,7 +20,7 @@ A simple and modern web app built with **Next.js + TypeScript + React** that all
 * **Next.js**
 * **React**
 * **TypeScript**
-* **CSS (basic styling)**
+* **TailwindCSS (basic styling)**
 
 ---
 
@@ -44,7 +45,6 @@ github-user-search/
 ├── services/
 ├── hooks/
 ├── types/
-├── utils/
 ```
 
 ---
@@ -82,6 +82,10 @@ http://localhost:3000
 ```
 
 ---
+
+## 🌍 Live Demo
+
+👉 https://github-user-finder-next-js-typescri.vercel.app/
 
 
 
