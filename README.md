@@ -54,8 +54,7 @@ github-user-search/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Qasem-21/github-user-search.git
-cd github-user-search
+git clone https://github.com/Qasem-21/github-user-finder---Next.js-Typescript-Tailwind
 ```
 
 ---
